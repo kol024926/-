@@ -2,17 +2,27 @@
 
 Сайт по теме «Использование микроразметки (Schema.org, JSON-LD)», созданный с использованием Blaze UI и собственного CSS3.
 
-В пересобранном сайте используются такие технологии:
+**Live:** https://kol024926.github.io/-/
 
-HTML5 — структура всех страниц: header, nav, main, aside, section, footer и т. д.
-CSS3 — собственные стили, адаптивность, оформление и анимации.
-Blaze UI — основной CSS-фреймворк по требованиям задания.
-JavaScript — бургер-меню на мобильных устройствах и интерактивные элементы формы.
-Schema.org — семантическая микроразметка содержимого.
-JSON-LD — структурированные данные в формате JSON-LD внутри HTML.
-Responsive Web Design — адаптация под:
-мобильные устройства <768px;
-планшеты ≥768px;
-компьютеры ≥992px.
-VK Video — встроенное видео через iframe.
-GitHub Pages — предполагаемая технология размещения сайта после загрузки проекта на GitHub.
+## Технологии
+
+- HTML5
+- CSS3
+- Carbon Design System
+- JavaScript
+- Git / GitHub
+- GitHub Pages
+
+
+## Структура
+
+- `index.html` — главная;
+- `schema-org.html` — Словарь Schema.org;
+- `json-ld.html` — Структура JSON-LD;
+- `microdata.html` — Microdata внутри HTML;
+- `rdfa.html` — RDFa и сравнение;
+- `types.html` — Типы Schema.org;
+- `examples.html` — Практические примеры;
+- `seo.html` — Микроразметка и поиск.
+- 'video.html' - Видео о микроразметке;
+- 'contacts.html' - Проверка и ресурсы;
