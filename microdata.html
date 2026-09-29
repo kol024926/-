@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Разметка элементов непосредственно в HTML.">
+<title>HTML Microdata — Schema.org и JSON-LD</title>
+<link rel="stylesheet" href="https://unpkg.com/blaze@latest/dist/blaze/blaze.css">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Микроразметка: Schema.org и JSON-LD","description":"Учебный сайт о структурированных данных и Schema.org"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"HTML Microdata","description":"Разметка элементов непосредственно в HTML.","url":"https://example.github.io/schema-markup/microdata.html"}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">К содержанию</a>
+<header class="site-header">
+  <div class="o-container site-header__inner">
+    <a class="brand" href="index.html" title="На главную"><span class="brand__mark">&lt;/&gt;</span><span>SchemaMarkup</span></a>
+    <button class="c-button c-button--ghost burger" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">☰</button>
+    <nav id="main-nav" class="site-nav" aria-label="Основная навигация"><div class="site-nav__links"><a class="c-link" href="index.html">Главная</a><a class="c-link" href="schema-org.html">Schema.org</a><a class="c-link" href="json-ld.html">JSON-LD</a><a class="c-link" href="microdata.html">Microdata</a><a class="c-link" href="rdfa.html">RDFa</a><a class="c-link" href="types.html">Типы</a><a class="c-link" href="examples.html">Примеры</a><a class="c-link" href="seo.html">Поиск</a><a class="c-link" href="video.html">Видео</a><a class="c-link" href="contacts.html">Контакты</a></div></nav>
+  </div>
+</header>
+<div class="o-container layout">
+<main id="main">
+<nav class="breadcrumbs" aria-label="Хлебные крошки"><a href="index.html">Главная</a> <span aria-hidden="true">›</span> <span>Microdata</span></nav>
+<header class="hero"><span class="eyebrow">ИСПОЛЬЗОВАНИЕ МИКРОРАЗМЕТКИ</span><h1>HTML Microdata</h1><p>Разметка элементов непосредственно в HTML.</p></header>
+<section><h2>Microdata внутри HTML</h2><p>Microdata добавляет атрибуты к существующим HTML-элементам. Основные атрибуты — <code>itemscope</code>, <code>itemtype</code> и <code>itemprop</code>.</p><pre><code>&lt;article itemscope itemtype="https://schema.org/Article"&gt;
+  &lt;h2 itemprop="headline"&gt;Название статьи&lt;/h2&gt;
+  &lt;span itemprop="author"&gt;Автор&lt;/span&gt;
+&lt;/article&gt;</code></pre><div class="notice"><strong>Важно:</strong> значения свойств должны соответствовать выбранному типу Schema.org.</div></section>
+</main>
+<aside class="sidebar" aria-label="Дополнительная информация">
+<section class="c-card side-card"><h2 class="c-heading">В этом разделе</h2><ul class="c-list"><li><a href="index.html">Главная</a></li><li><a href="schema-org.html">Schema.org</a></li><li><a href="json-ld.html">JSON-LD</a></li><li><a href="microdata.html">Microdata</a></li><li><a href="rdfa.html">RDFa</a></li><li><a href="types.html">Типы</a></li><li><a href="examples.html">Примеры</a></li><li><a href="seo.html">Поиск</a></li><li><a href="video.html">Видео</a></li><li><a href="contacts.html">Контакты</a></li></ul></section>
+<section class="c-card side-card"><h2 class="c-heading">Ключевая идея</h2><p>Структурированные данные добавляют машине понятный контекст к обычному содержимому страницы.</p></section>
+</aside>
+</div>
+<footer class="site-footer"><div class="o-container"><div><strong>SchemaMarkup</strong><p>Учебный проект по теме «Использование микроразметки (Schema.org, JSON-LD)».</p></div><div><a href="https://schema.org/">Schema.org</a> · <a href="https://json-ld.org/">JSON-LD</a></div></div></footer>
+<script src="js/main.js"></script>
+</body></html>
