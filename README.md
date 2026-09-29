@@ -24,5 +24,5 @@
 - `types.html` — Типы Schema.org;
 - `examples.html` — Практические примеры;
 - `seo.html` — Микроразметка и поиск.
-- 'video.html' - Видео о микроразметке;
-- 'contacts.html' - Проверка и ресурсы;
+- `video.html` - Видео о микроразметке;
+- `contacts.html` - Проверка и ресурсы;
